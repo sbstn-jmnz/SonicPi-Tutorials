@@ -32,7 +32,7 @@ puts note_info(:g4).midi_note
 ```
 #Looking at a list and changing it
 The last three similar commands asks Sonic_Pi to print in the output pane information about the note in the form of its midi note number, and we will see the answers 60 64 and 67 again, one on each line.
-Now we will use another idea. We are going to store the list of notes in the chord in a variable which we will call nlist. This is rather like a box in which we will put a piece of aper with sopme information on it. Later we can go back to the box and get the piece of paper and read what is on it. Add a further two lines (you can miss out the comments - the bits after the # if you don't want to type too much) to give:
+Now we will use another idea. We are going to store the list of notes in the chord in a variable which we will call nlist. This is rather like a box in which we will put a piece of paper with some information on it. Later we can go back to the box and get the piece of paper and read what is on it. Add a further two lines (you can miss out the comments - the bits after the # if you don't want to type too much) to give:
 ```ruby
 play_chord [:c4, :e4, :g4]
 sleep 1
